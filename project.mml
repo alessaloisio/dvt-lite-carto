@@ -58,7 +58,7 @@ Layer:
     geometry: polygon
     <<: *extents
     Datasource:
-      file: data/simplified-land-polygons-complete-3857/simplified_land_polygons.shp
+      file: ../openstreetmap-carto/data/simplified-land-polygons-complete-3857/simplified_land_polygons.shp
       type: shape
     properties:
       maxzoom: 9
@@ -66,7 +66,7 @@ Layer:
     geometry: polygon
     <<: *extents
     Datasource:
-      file: data/land-polygons-split-3857/land_polygons.shp
+      file: ../openstreetmap-carto/data/land-polygons-split-3857/land_polygons.shp
       type: shape
     properties:
       minzoom: 10
@@ -74,11 +74,11 @@ Layer:
     geometry: linestring
     <<: *extents84
     Datasource:
-      file: data/ne_110m_admin_0_boundary_lines_land/ne_110m_admin_0_boundary_lines_land.shp
+      file: ../openstreetmap-carto/data/ne_110m_admin_0_boundary_lines_land/ne_110m_admin_0_boundary_lines_land.shp
       type: shape
     properties:
       minzoom: 1
-      maxzoom: 3
+      maxzoom: 18
   - id: landcover-low-zoom
     geometry: polygon
     <<: *extents
@@ -216,7 +216,7 @@ Layer:
     geometry: polygon
     <<: *extents
     Datasource:
-      file: data/antarctica-icesheet-polygons-3857/icesheet_polygons.shp
+      file: ../openstreetmap-carto/data/antarctica-icesheet-polygons-3857/icesheet_polygons.shp
       type: shape
     properties:
       minzoom: 5
@@ -280,7 +280,7 @@ Layer:
     geometry: linestring
     <<: *extents
     Datasource:
-      file: data/antarctica-icesheet-outlines-3857/icesheet_outlines.shp
+      file: ../openstreetmap-carto/data/antarctica-icesheet-outlines-3857/icesheet_outlines.shp
       type: shape
     properties:
       minzoom: 5

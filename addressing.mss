@@ -1,17 +1,17 @@
 /* Features related to (postal) adresses: */
 
-@address-color: #666;
+@address-color: #bfbfbf;
 
 #interpolation {
   [zoom >= 17] {
-    line-color: @address-color;
+    line-color: #ff0000;
     line-width: 1;
     line-dasharray: 2,4;
   }
 }
 
 #addresses {
-  [zoom >= 17] {
+  [zoom >= 20] {
     text-name: "[addr_housename]";
     ["addr_housenumber" != null] {
       text-name: [addr_housenumber];
@@ -27,7 +27,7 @@
     }
     text-placement: interior;
     text-face-name: @book-fonts;
-    text-fill: @address-color;
+    text-fill: #333;
     text-halo-radius: @standard-halo-radius;
     text-halo-fill: @standard-halo-fill;
     text-size: 10;
@@ -58,7 +58,7 @@ no official postal addresses) */
     text-name: "[name]";
     text-placement: interior;
     text-face-name: @book-fonts;
-    text-fill: #444;
+    text-fill: #333;
     text-halo-radius: @standard-halo-radius;
     text-halo-fill: @standard-halo-fill;
     text-size: 11;

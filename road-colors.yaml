@@ -36,7 +36,7 @@ classes:
   # Colours used by the road shields script
   shield:
     fill:
-      lightness: [85, 95]
+      lightness: [95, 95]
       chroma: [12, 14]
     stroke_fill:
       lightness: [70, 80]

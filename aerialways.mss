@@ -1,3 +1,5 @@
+
+/*
 #aerialways {
   [aerialway = 'cable_car'],
   [aerialway = 'gondola'],
@@ -104,3 +106,5 @@
     }
   }
 }
+
+*/

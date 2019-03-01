@@ -1,3 +1,4 @@
+/*
 @power-line-color: #888;
 
 #power-line {
@@ -53,3 +54,4 @@
     marker-width: 3;
   }
 }
+*/
